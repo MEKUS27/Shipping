@@ -49,6 +49,7 @@
     .servicing {
         flex-direction: column;
         padding: 20px 60px;
+        margin-top: -70px;
       }
       .servicing h2 {
         width: auto;
@@ -145,12 +146,16 @@
         line-height: 1;
       }
       .servicing {
-        padding: 20px 40px;
+        width: 90%;
+        margin-top: -60px;
+
+        padding: 10px 40px;
       }
       .servicing h2 {
         font-size: 18px;
         width: auto;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        font-weight: 800;
       }
       .marquee_img img {
         width: 120px;
