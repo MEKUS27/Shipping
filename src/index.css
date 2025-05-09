@@ -72,7 +72,7 @@
   position: relative;
   overflow: hidden;
   padding: 10px 20px;
-  background-color: rgb(5, 44, 101);
+  background-color: #052c65;
   color: white;
   border: none;
   border-radius: 50px;
@@ -102,7 +102,7 @@
 }
 
 .hero {
-  background-image: linear-gradient(60deg, rgb(24, 8, 116), rgba(0, 0, 0, 0), rgba(0,0,0,0)),
+  background-image: linear-gradient(to top right, #052c65, transparent),
     url("/images/hero.jpg"); /* Correct Vite public path */
 
   background-size: 140%; /* Start with zoomed-in image */
