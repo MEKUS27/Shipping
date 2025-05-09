@@ -2,6 +2,8 @@ import React from "react";
 import { assets } from "../assets/assets";
 import { Link } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import Marquee from "react-fast-marquee";
+import Servicing from "./Servicing";
 
 const Hero = () => {
   return (
@@ -36,6 +38,7 @@ const Hero = () => {
        
        </div>
       </div>
+      <Servicing />
     </>
   );
 };
