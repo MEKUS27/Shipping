@@ -91,7 +91,7 @@
     .main_navbar {
         width: 93%;
         right:4%;
-        /* padding: 0px 30px; */
+        padding: 0px 23px;
         /* margin: 20px; */
     }
     .hero .left-content {
@@ -104,6 +104,9 @@
         /* font-size: 2.9rem; */
         font-size: 40px;
         
+      }
+      .hero .element_1 {
+        display: block;
       }
 
   }
