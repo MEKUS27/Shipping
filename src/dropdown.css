@@ -1,0 +1,246 @@
+.nav_dropdowns {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    /* margin-left: 10px; */
+    cursor: pointer;
+    overflow: hidden;
+    color: #003566;
+    line-height: 4.85;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .drop_dwon_icon {
+    font-size: 22px;
+    /* margin-top: 2px; */
+    /* margin-left: -5px; */
+    position: relative;
+    right: 4%;
+    
+  }
+  
+  .dropdown-menu {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.45s ease, transform 0.15s ease;
+    pointer-events: none; /* prevent mouse interaction when hidden */
+  
+    display: block; /* always block, but hidden via opacity */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 4px; */
+    min-width: 266px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+    z-index: 1000;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+    /* width: fit-content; */
+    cursor: pointer;
+    color: #003566;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+  
+    /* Add this line */
+    border-left: 2px solid transparent;
+  }
+  
+  .dropdown-menu li {
+    position: relative;
+    padding-left: 12px; /* room for the border */
+  }
+
+  .dropdown-menu li:hover {
+    color: #fd7e14;
+  }
+  
+  .dropdown-menu li:hover::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 30%; /* position it vertically */
+    height: 40%; /* reduce visual height */
+    width: 4px;
+    background-color: #fd7e14;
+    border-radius: 1px;
+  }
+  
+  
+  
+  /* ✅ Hover the whole .dropdown container, not just the button */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .hr {
+    width: 240px;
+    margin:  auto;
+    /* height: 2px; */
+    /* background-color: #333; */
+    border-top: 1px dashed #003566;
+  }
+
+
+  
+  
+
+  
+  /* Dimmed overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: -9%;
+    width: 1000px;
+    height: 100vh;
+    background-color: rgba(5, 43, 101, 0.308); /* low opacity navy blue */
+    z-index: 999;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Rest of your sidebar CSS stays the same */
+  
+  .side-nav {
+    position: fixed;
+    top: -23%;
+    left: -700px;
+    width: 400px;
+    height: 100vh;
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    transition: left 0.3s ease;
+    z-index: 1000;
+    overflow-Y: none;
+    overflow-x: hidden;
+  }
+  
+  .side-nav.open {
+    left: -9%;
+    
+  }
+  
+  .side-nav .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    color: grey;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .side-nav ul {
+    list-style: none;
+    padding: 0;
+    list-style: none;
+    /* padding: 20px; */
+  }
+  
+  .side-nav ul li {
+    /* padding: 15px 20px; */
+  }
+  
+  .side-nav ul li a {
+    padding: 10px;
+    color: rgba(0, 53, 102, 0.85);
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  .side_nav_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+
+ 
+
+.side_nav_dropdown-toggle {
+    /* padding: 10px; */
+  background: none;
+  border: none;
+  color: rgba(0, 53, 102, 0.85);
+  /* color: #fd7e14; */
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
+
+.side_nav_drop_dwon_icon {
+    font-size: 25px;
+    margin-top: -6px;
+    /* margin-left: -5px; */
+    position: relative;
+    right: 4%;
+    
+  }
+
+.side_nav_dropdown-menu {
+  padding-left: 20px;
+  list-style: none;
+
+}
+
+.side_nav_dropdown-menu li {
+  padding: 8px 0;
+}
+
+.side_nav_dropdown-menu li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.nav_side_hr {
+    width: 350px;
+    margin:  auto;
+    border-top: 1px  rgba(128, 128, 128, 0.2);;
+  }
+
+  ul  a {
+    text-decoration: none;
+  }
