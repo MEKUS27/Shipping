@@ -56,7 +56,7 @@
     .nav_menu_icon .menu_icon {
         font-size: 25px;
         color: #003566;
-        margin-right: -20px;
+        margin-right: -25px;
     } 
   }
 
@@ -88,8 +88,14 @@
   }
 
   @media (max-width: 600px) {
+    .main_navbar {
+        width: 93%;
+        right:4%;
+        /* padding: 0px 30px; */
+        /* margin: 20px; */
+    }
     .hero .left-content {
-        padding-left: 40px;
+        padding-left: 20px;
         /* background-color: red; */
         width:90%;
         color: white;
@@ -98,5 +104,21 @@
         /* font-size: 2.9rem; */
         font-size: 40px;
         
+      }
+
+  }
+
+  @media (max-width: 480px) {
+    .hero .element_1 {
+        display: block;
+    }
+    .hero .element_1  {
+        position: relative;
+        top: 100%;
+        left: 7%;
+        z-index: 9;
+      }
+      .hero .element_1 img {
+        width: 400px;
       }
   }
