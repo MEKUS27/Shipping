@@ -149,12 +149,12 @@
         width: 90%;
         margin-top: -60px;
 
-        padding: 10px 40px;
+        padding: 15px 20px;
       }
       .servicing h2 {
         font-size: 18px;
         width: auto;
-        margin-bottom: 20px;
+        margin-bottom: 17px;
         font-weight: 800;
       }
       .marquee_img img {
@@ -209,4 +209,22 @@
       .hero .element_1 img {
         width: 400px;
       } */
+  }
+
+  @media (max-width: 430px) {
+    .right-content {
+        padding: 0px 20px;
+    }
+    .hero .image {
+        padding: 0px 20px;
+    }
+    .hero .image img {
+        width: 350px;
+      }
+  }
+
+  @media (max-width: 380px) {
+    .hero .image img {
+        width: 300px;
+      }
   }
