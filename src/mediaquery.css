@@ -58,6 +58,9 @@
         color: #003566;
         margin-right: -25px;
     } 
+    .overlay {
+        top: -30%;
+    }
   }
 
   @media (max-width: 980px) {
@@ -69,6 +72,7 @@
         padding-left: 80px;
     }
     .hero {
+        /* padding: 0px 40px; */
         padding-top: 150px;
         padding-bottom: 60px;
         flex-wrap: wrap;
@@ -81,44 +85,71 @@
         justify-content: center;
         display: none;
     }
-    .hero .element_1 img {
-        /* width: 500px; */
-    }
+    .hero .image {
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: center;
+        /* background-color: red; */
+      }
+      .right-content {
+        width: 100%;
+        /* background-color: red; */
+        /* padding: 20px; */
+      }
+      
 
   }
+
+  @media (max-width: 650px) {
+    .side-nav {
+        left: -700px;
+    }
+   
+    .hero .image img {
+        width: 440px;
+      }
+
+      .hero .left-content {
+        padding-left: 40px;
+      }
+  }  
 
   @media (max-width: 600px) {
     .main_navbar {
         width: 93%;
         right:4%;
         padding: 0px 23px;
-        /* margin: 20px; */
     }
     .hero .left-content {
-        padding-left: 30px;
-        /* background-color: red; */
+        padding-left: 35px;
         width:90%;
         color: white;
       }
       .hero .left-content h1 {
-        /* font-size: 2.9rem; */
         font-size: 40px;       
       }
-      .section-tex {
-        font-weight: 500;
-      }
+    
       .hero .element_1 {
-        padding-top: 20px;
-        display: block;
-        top: 100%;
-        left: 9%;
-        z-index: 9;
+        display: none;
       }
-
+      .hero .element_4 {
+        display: none;
+      }
+      .side-nav.open {
+        left: -4%;
+        
+      }
+   
   }
 
+ 
+
   @media (max-width: 480px) {
-    .hero .element_1 {
+    .hero .image img {
+        width: 400px;
+      }
+    /* .hero .element_1 {
         display: block;
     }
     .hero .element_1  {
@@ -129,5 +160,5 @@
       }
       .hero .element_1 img {
         width: 400px;
-      }
+      } */
   }

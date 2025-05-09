@@ -26,9 +26,9 @@ const Hero = () => {
           <img src={assets.element1} alt="" />
         </div>
 
-        {/* <div className="image">
+        <div className="image">
         <img src={assets.element1} alt="" />
-        </div> */}
+        </div>
 
        <div className="element_4">
           <img src={assets.element4} alt="" />
