@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Marquee from "react-fast-marquee";
 import Servicing from "./Servicing";
+import Experience from "./Experience";
 
 const Hero = () => {
   return (
@@ -39,6 +40,7 @@ const Hero = () => {
        </div>
       </div>
       <Servicing />
+      <Experience />
     </>
   );
 };

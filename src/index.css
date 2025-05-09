@@ -31,7 +31,7 @@
   position: fixed;
   z-index: 99;
   top: 2.5%;
-  right: 8%;
+  right: 7.5%;
   width: 85%;
   border-radius: 50px;
   margin: auto;
@@ -225,4 +225,106 @@
 .marquee_img img {
   width: 90px;
   margin-left: 40px;
+}
+
+
+.Experience {
+  width: 85%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  /* padding-top: 40px; */
+}
+.Experience .left {
+  width: 45%;
+  margin-top: -40px;
+  /* background-color: blue; */
+}
+.Experience .left .text {
+  
+  text-align: center;
+  /* background-color: red; */
+}
+.Experience .left .text {
+  width: auto;
+  position: relative;
+  top: 19%;
+  left: 1%;
+  z-index: 20;
+  color: white;
+
+}
+.Experience .left .text h1 {
+  display: block;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1;
+}
+.Experience .left .img_shape {
+  position: relative;
+  top: 8%;
+  left: 30%;
+  z-index: 10;
+}
+.Experience .left .img_1 {
+  position: relative;
+  top: -15%;
+  left: 0%;
+  border-radius: 15px;
+  z-index: 1;
+
+}
+.Experience .left .img_2 {
+  position: relative;
+  top: -34%;
+  left:3%;
+  border-radius: 15px;
+  z-index: 1;
+
+}
+.Experience .left .img_dot {
+  position: relative;
+  top: -45%;
+  left: 58%;
+}
+.Experience .right {
+  width: 60%;
+  /* background-color: blue; */
+  padding-top: 56px;
+}
+
+.Experience .right .first_p {
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: rgba(255, 125, 68, 0.17);
+  padding: 7px 20px;
+  color: #ff7d44;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1;
+}
+.Experience .right h1 {
+    color: #013566;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+.Experience .right h1 span {
+  font-weight: 1000;
+}
+
+.Experience .right .section_test {
+  margin-top: 20px;
+    font-size: 1.125rem;
+    color: #5c6672;
+}
+
+.Experience .right hr {
+  
+}
+
+.Experience .right hr:hover {
+  width: 80%; /* subtle effect on hover */
 }
