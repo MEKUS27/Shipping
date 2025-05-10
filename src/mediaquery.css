@@ -219,6 +219,16 @@
       
 
   }
+  @media (max-width: 700px) {
+    .Experience .right .details  .shift_1 {
+        /* margin-left: 20px; */
+      }
+  }
+  @media (max-width: 700px) {
+    .Experience .right .details  .shift_1 {
+        margin-left: 0px;
+      }
+  }
 
   @media (max-width: 650px) {
     .side-nav {
@@ -262,6 +272,25 @@
       }
       .marquee_img img {
         width: 110px;
+      }
+      .Experience .left {
+        display: none;
+      }
+      .Experience .right {
+        width: 100%;
+        margin: auto;
+        /* background-color: red; */
+        padding: 25px;
+        margin-bottom: 40px;
+      }
+      .Experience .smith .content {
+        margin-left: 30px;
+      }
+      .Experience .right .details {
+        flex-direction: column;
+      }
+      .Experience .right .details  .shift {
+        margin-left: 0px;
       }
   }  
 
