@@ -130,40 +130,44 @@
         top: -35%;
     }
     .servicing {
-        margin-bottom: 100px;
+        margin-bottom: 70px;
     }
     .Experience {
         width: 100%;
         height: auto;
-        margin-top: 0px;
         flex-direction: column-reverse;
         padding: 0px 0px;
         overflow: hidden;
       }
 
       .Experience .left {
+        position: relative;
         width: auto;
         /* background-color: red; */
         margin-top: 0px;
-        display: none;
+        margin: auto;
+        /* display: none; */
       }
       .Experience .left .text {
         width: auto;
-        position: sticky;
-        top: 20%;
-        left: 13%;
+        position: absolute;
+        top: 16%;
+        left: 50%;
         z-index: 20;
         color: white;
+
       }
       .Experience .left .img_shape {
-        position: relative;
-        top: 0%;
-        left: 35%;
+        position: absolute;
+        top: 5%;
+        left: 38%;
         z-index: 10;
       }
 
       .Experience .left .img_1 {
-        /* width: 400px; */
+        /* left: 30%; */
+        /* position: absolute; */
+        width: 480px;
       }
       
       .Experience .right {
@@ -171,6 +175,7 @@
         margin: auto;
         /* background-color: red; */
         padding: 0px;
+        margin-bottom: 40px;
       }
     
   }
