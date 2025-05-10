@@ -168,7 +168,7 @@
   position: relative;
   overflow: hidden;
   padding: 10px 20px;
-  background-color: #fd7e14;
+  background: linear-gradient(237deg, rgb(255, 229, 202) 0%, rgb(246, 146, 30) 53%, rgb(216, 59, 32) 100%);
   color: white;
   border: none;
   border-radius: 50px;

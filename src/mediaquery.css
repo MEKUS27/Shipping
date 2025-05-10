@@ -168,7 +168,7 @@
       .Experience .left .img_1 {
         /* left: 30%; */
         /* position: absolute; */
-        width: 400px;
+        width: 460px;
       }
      
       
@@ -273,9 +273,7 @@
       .marquee_img img {
         width: 110px;
       }
-      .Experience .left {
-        display: none;
-      }
+    
       .Experience .right {
         width: 100%;
         margin: auto;
@@ -291,6 +289,11 @@
       }
       .Experience .right .details  .shift {
         margin-left: 0px;
+      }
+      .Experience .left .img_1 {
+        /* left: 30%; */
+        /* position: absolute; */
+        width: 500px;
       }
   }  
 
