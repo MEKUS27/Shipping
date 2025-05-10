@@ -138,6 +138,7 @@
         flex-direction: column-reverse;
         padding: 0px 0px;
         overflow: hidden;
+        margin-bottom: 100px;
       }
 
       .Experience .left {
@@ -167,8 +168,9 @@
       .Experience .left .img_1 {
         /* left: 30%; */
         /* position: absolute; */
-        width: 480px;
+        width: 400px;
       }
+     
       
       .Experience .right {
         width: 75%;
