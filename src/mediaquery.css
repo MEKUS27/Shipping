@@ -55,10 +55,59 @@
       .marquee_img img {
         width: 100px;
       }
-   
+      .Experience {
+        width: 100%;
+        padding: 0px 20px;
+      }
+      .Experience .left .img_1 {
+        width: 370px;
+      }
+      .Experience .left .img_2 {
+        display: none;
+      }
+      .Experience .left .img_dot {
+        display: none;
+      }
+      .Experience .left {
+        width: 45%;
+      }
+      .Experience .left .text {
+        width: auto;
+        position: relative;
+        top: 27%;
+        left: 13%;
+        z-index: 20;
+        color: white;
+      }
+      .Experience .left .img_shape {
+        position: relative;
+        top: 12%;
+        left: 35%;
+        z-index: 10;
+      }
+      .Experience .right {
+        width: auto;
+        height: auto;
+        /* background-color: blue; */
+        padding-top: 56px;
+        padding-left: 50px;
+      }
+      .Experience .right .details {
+        width: auto;
+        /* background-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+      }
+      
   }
 
-  @media (max-width: 990px) {
+  
+  @media (max-width: 1000px) {
+
+  }
+
+  @media (max-width: 992px) {
     
     .main_navbar {
         padding: 0px 30px;
@@ -80,6 +129,49 @@
     .overlay {
         top: -35%;
     }
+    .servicing {
+        margin-bottom: 100px;
+    }
+    .Experience {
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        flex-direction: column-reverse;
+        padding: 0px 0px;
+        overflow: hidden;
+      }
+
+      .Experience .left {
+        width: auto;
+        /* background-color: red; */
+        margin-top: 0px;
+        display: none;
+      }
+      .Experience .left .text {
+        width: auto;
+        position: sticky;
+        top: 20%;
+        left: 13%;
+        z-index: 20;
+        color: white;
+      }
+      .Experience .left .img_shape {
+        position: relative;
+        top: 0%;
+        left: 35%;
+        z-index: 10;
+      }
+
+      .Experience .left .img_1 {
+        /* width: 400px; */
+      }
+      
+      .Experience .right {
+        width: 75%;
+        margin: auto;
+        /* background-color: red; */
+        padding: 0px;
+      }
     
   }
 

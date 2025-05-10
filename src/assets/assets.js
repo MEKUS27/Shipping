@@ -10,6 +10,7 @@ import client_logo_six from "./client_logo_six.png"
 import about_img_1 from "./about_img_1.jpg"
 import about_img_2 from "./about_img_2.jpg"
 import star_curve_shape_blue from "./star_curve_shape_blue.svg"
+import signature from "./signature.png"
 export const assets = {
     element1,
     element4,
@@ -22,5 +23,6 @@ export const assets = {
     client_logo_six,
     star_curve_shape_blue,
     about_img_1,
-    about_img_2
+    about_img_2,
+    signature
 }

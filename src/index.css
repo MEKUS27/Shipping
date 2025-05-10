@@ -230,8 +230,8 @@
 
 .Experience {
   width: 85%;
+  height: 130vh;
   margin: auto;
-  height: auto;
   display: flex;
   justify-content: space-between;
   /* background-color: red; */
@@ -250,8 +250,8 @@
 .Experience .left .text {
   width: auto;
   position: relative;
-  top: 19%;
-  left: 1%;
+  top: 28%;
+  left: 3%;
   z-index: 20;
   color: white;
 
@@ -264,8 +264,8 @@
 }
 .Experience .left .img_shape {
   position: relative;
-  top: 8%;
-  left: 30%;
+  top: 13%;
+  left: 32%;
   z-index: 10;
 }
 .Experience .left .img_1 {
@@ -291,6 +291,7 @@
 }
 .Experience .right {
   width: 60%;
+  height: auto;
   /* background-color: blue; */
   padding-top: 56px;
 }
@@ -320,11 +321,97 @@
     font-size: 1.125rem;
     color: #5c6672;
 }
+.Experience .right .section_test_2 {
+  margin-top: 20px;
+    font-size: 1.100rem;
+    color: #5c6672;
+}
 
 .Experience .right hr {
-  
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, #73747538, #73747538);
+  /* background: linear-gradient(to right, #052c65, #00bfff); */
+
+  width: 100%;
+  margin: 25px 0;
+  border-radius: 4px;
+  transition: width 0.3s ease;
 }
 
 .Experience .right hr:hover {
   width: 80%; /* subtle effect on hover */
+}
+
+.Experience .right .details {
+  width: auto;
+  /* background-color: red; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+}
+
+.Experience .right .details li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: #013566;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.Experience .right .details .check_icon {
+  color: #fd7e14;
+  margin: 10px;
+  margin-left: 0px;
+}
+.Experience .right .details  .shift_1 {
+  margin-left: 10px;
+}
+.Experience .right .details  .shift {
+  margin-left: 27px;
+}
+.Experience .smith {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.Experience .right button {
+  border: none;
+  background-color: transparent;
+}
+.Experience .right .nav_button {
+  background: linear-gradient(237deg, rgb(255, 229, 202) 0%, rgb(246, 146, 30) 53%, rgb(216, 59, 32) 100%);
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.Experience .right .nav_get_arrow {
+  background-color: white;
+  color: #003566;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.Experience .smith .content {
+  margin-left: 50px;
+}
+
+.Experience .smith .content img {
+  width: 135px;
+}
+
+.Experience .smith .content p {
+  color: #5c6672;
+    font-size: 1rem;
+    line-height: 1.75;
 }
