@@ -290,10 +290,29 @@
       .Experience .right .details  .shift {
         margin-left: 0px;
       }
+      .Experience .left .text {
+        width: auto;
+        position: absolute;
+        top: 18%;
+        left: 43%;
+        z-index: 20;
+        color: white;
+
+      }
+      .Experience .left .text h1 {
+        font-size: 40px;
+      }
+      .Experience .left .img_shape {
+        width: 170px;
+        position: absolute;
+        top: 9%;
+        left: 35%;
+        z-index: 10;
+      }
       .Experience .left .img_1 {
         /* left: 30%; */
         /* position: absolute; */
-        width: 470px;
+        width: 460px;
       }
   }  
 
