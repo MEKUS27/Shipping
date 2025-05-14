@@ -458,9 +458,18 @@
   .Experience .left {
     padding: 0px 20px;
   }
+  .logistics {
+    /* margin-bottom: 0px; */
+  }
+  .logistics_services {
+    padding-bottom: 0px;
+  }
   .logistics-swiper-container {
     width: auto;
     padding: 0px 0px;
+  }
+  .logistics-card .img-cover .service-thumbnail {
+    width: 400px;
   }
   .logistics-card {
     margin: 0px;
