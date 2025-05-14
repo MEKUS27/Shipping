@@ -4,6 +4,7 @@ import Servicing from '../components/Servicing'
 import Experience from '../components/Experience'
 import Logisticssiwper from '../components/Logisticssiwper'
 import LogisticsCard from "../components/LogisticsCard"
+import Sectionindustry from '../components/Sectionindustry'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Experience />
       <Logisticssiwper />
       <LogisticsCard />
+      <Sectionindustry />
     </>
   )
 }

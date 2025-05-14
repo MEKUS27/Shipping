@@ -435,6 +435,7 @@
   text-align: center;
   padding-top: 80px;
   padding-bottom: 470px;
+  /* margin-bottom: 20px; */
 }
 
 .logistics_services .first_p {
@@ -488,7 +489,7 @@
     background-color: #fff;
     padding: 20px 0px;
     margin: 0px 5px;
-    /* box-shadow: 0px 2px 24px 0px rgba(0, 53, 102, 0.199); */
+    box-shadow: 0px 22px 24px 0px rgba(0, 53, 102, 0.06);
 
 }
 

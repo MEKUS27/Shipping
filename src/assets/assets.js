@@ -17,6 +17,7 @@ import service_thumbnail_3 from "./service_thumbnail_3.jpg"
 import service_thumbnail_4 from "./service_thumbnail_4.jpg"
 import service_thumbnail_5 from "./service_thumbnail_5.jpg"
 import service_thumbnail_6 from "./service_thumbnail_6.jpg"
+import world_globe_dark from "./world_globe_dark.png"
 export const assets = {
     element1,
     element4,
@@ -36,5 +37,6 @@ export const assets = {
     service_thumbnail_3,
     service_thumbnail_4,
     service_thumbnail_5,
-    service_thumbnail_6
+    service_thumbnail_6,
+    world_globe_dark
 }
