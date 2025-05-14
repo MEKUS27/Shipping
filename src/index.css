@@ -230,7 +230,7 @@
 
 .Experience {
   width: 85%;
-  height: auto;
+  height: 130vh;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -420,15 +420,59 @@
 
 
 
+.logistics {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  background-color: #F0F6F3;
+  /* margin-bottom: 150px; */
+}
+
+.logistics_services {
+  width: auto;
+  background-image: url(https://trazen.netlify.app/assets/images/dotted-map.svg);
+  background-position: top;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 470px;
+}
+
+.logistics_services .first_p {
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 7px 20px;
+  color: #ff7d44;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.logistics_services h2 {
+  color: #013566;
+  font-size: 3rem;
+  letter-spacing: -2px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.logistics_services .section_text {
+  width: 560px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 1.125rem;
+  color: #5c6672;
+  line-height: 1.75;
+}
 
 
 
-/* src/components/LogisticsSwiper.css */
 .logistics-swiper-container {
   width: 90%;
   margin: 40px auto;
   padding: 0 20px;
-  margin-top: -610px;
+  margin-top: -450px;
   background-color: transparent;
   /* padding: 20px 50px; */
 }
@@ -439,12 +483,13 @@
 
 .logistics-card {
   
-    box-shadow: 0px 22px 24px 0px rgba(0, 53, 102, 0.082);
     border: 1px solid transparent;
     border-radius: 12px;
     background-color: #fff;
     padding: 20px 0px;
     margin: 0px 5px;
+    /* box-shadow: 0px 2px 24px 0px rgba(0, 53, 102, 0.199); */
+
 }
 
 /* .logistics-card:hover {
