@@ -5,6 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import Marquee from "react-fast-marquee";
 import Servicing from "./Servicing";
 import Experience from "./Experience";
+import Logisticssiwper from "./Logisticssiwper";
 
 const Hero = () => {
   return (
@@ -39,8 +40,7 @@ const Hero = () => {
        
        </div>
       </div>
-      <Servicing />
-      <Experience />
+     
     </>
   );
 };

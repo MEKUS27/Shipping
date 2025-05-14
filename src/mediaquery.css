@@ -1,359 +1,492 @@
 @media (max-width: 1115px) {
-    .main_navbar {
-        justify-content: space-between;
-    }
-    .nav_btn {
-        display: none;
-    }
-    .nav_dropdowns {
-        width: auto;
-    }
-    .dropdown-toggle {
-        margin-left: 10px;
-    }
-    .main_navbar .nav_button {
-        display: none;
-    }
-    .hero {
-        height: auto;
-        background-size: cover;
-        padding-bottom: 80px;
-    }
-    .hero .right-content {
-        padding-top: 30px;
-    }
-    .hero .left-content {
-        padding-left: 90px;
-        width: 55%;
-        margin-top: 0px;
-        color: white;
-      }
-      .hero .left-content h1 {
-        font-size: 50px;
-        
-      }
-    .hero .element_4 {
-        display: none;
-    }
-    .hero .element_1 {
-        top: 30%;
-        right: 0%;
-        position:relative;
-    }
-    .hero .element_1 img {
-        width: 470px;
-    }
-    .servicing {
-        flex-direction: column;
-        padding: 20px 60px;
-        margin-top: -70px;
-      }
-      .servicing h2 {
-        width: auto;
-        margin-bottom: 30px;
-      }
-      .marquee_img img {
-        width: 100px;
-      }
-      .Experience {
-        width: 100%;
-        padding: 0px 20px;
-      }
-      .Experience .left .img_1 {
-        width: 370px;
-      }
-      .Experience .left .img_2 {
-        display: none;
-      }
-      .Experience .left .img_dot {
-        display: none;
-      }
-      .Experience .left {
-        width: 45%;
-      }
-      .Experience .left .text {
-        width: auto;
-        position: relative;
-        top: 27%;
-        left: 13%;
-        z-index: 20;
-        color: white;
-      }
-      .Experience .left .img_shape {
-        position: relative;
-        top: 12%;
-        left: 35%;
-        z-index: 10;
-      }
-      .Experience .right {
-        width: auto;
-        height: auto;
-        /* background-color: blue; */
-        padding-top: 56px;
-        padding-left: 50px;
-      }
-      .Experience .right .details {
-        width: auto;
-        /* background-color: red; */
-        display: flex;
-        flex-wrap: wrap;
-        /* justify-content: space-between; */
-      }
-      
+  .main_navbar {
+    justify-content: space-between;
+  }
+  .nav_btn {
+    display: none;
+  }
+  .nav_dropdowns {
+    width: auto;
+  }
+  .dropdown-toggle {
+    margin-left: 10px;
+  }
+  .main_navbar .nav_button {
+    display: none;
+  }
+  .hero {
+    height: auto;
+    background-size: cover;
+    padding-bottom: 80px;
+  }
+  .hero .right-content {
+    padding-top: 30px;
+  }
+  .hero .left-content {
+    padding-left: 90px;
+    width: 55%;
+    margin-top: 0px;
+    color: white;
+  }
+  .hero .left-content h1 {
+    font-size: 50px;
+  }
+  .hero .element_4 {
+    display: none;
+  }
+  .hero .element_1 {
+    top: 30%;
+    right: 0%;
+    position: relative;
+  }
+  .hero .element_1 img {
+    width: 470px;
+  }
+  .servicing {
+    flex-direction: column;
+    padding: 20px 60px;
+    margin-top: -70px;
+  }
+  .servicing h2 {
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .marquee_img img {
+    width: 100px;
+  }
+  .Experience {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .Experience .left .img_1 {
+    width: 370px;
+  }
+  .Experience .left .img_2 {
+    display: none;
+  }
+  .Experience .left .img_dot {
+    display: none;
+  }
+  .Experience .left {
+    width: 45%;
+  }
+  .Experience .left .text {
+    width: auto;
+    position: relative;
+    top: 27%;
+    left: 13%;
+    z-index: 20;
+    color: white;
+  }
+  .Experience .left .img_shape {
+    position: relative;
+    top: 12%;
+    left: 35%;
+    z-index: 10;
+  }
+  .Experience .right {
+    width: auto;
+    height: auto;
+    /* background-color: blue; */
+    padding-top: 56px;
+    padding-left: 50px;
+  }
+  .Experience .right .details {
+    width: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
   }
 
+  .logistics-card .img-cover .service-thumbnail {
+    width: 370px;
+  }
+
+  .custom-arrow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .prev-arrow {
+    position: absolute;
+    top:390%;
+    left: 45%;
+  }
   
-  @media (max-width: 1000px) {
+  .next-arrow {
+    position: absolute;
+    top:390%;
+    right: 43%;
+  }
+}
 
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 992px) {
+  .main_navbar {
+    padding: 0px 30px;
+  }
+  .nav_dropdowns {
+    display: none;
+  }
+  .nav_menu_icon {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+  }
+  .nav_menu_icon .menu_icon {
+    font-size: 25px;
+    color: #003566;
+    margin-right: -25px;
   }
 
-  @media (max-width: 992px) {
+  .overlay {
+    top: -35%;
+  }
+  .servicing {
+    margin-bottom: 70px;
+  }
+  .Experience {
+    width: 100%;
+    height: auto;
+    flex-direction: column-reverse;
+    padding: 0px 0px;
+    overflow: hidden;
+    margin-bottom: 100px;
+  }
+
+  .Experience .left {
+    position: relative;
+    width: auto;
+    /* background-color: red; */
+    margin-top: 0px;
+    margin: auto;
+    /* display: none; */
+  }
+  .Experience .left .text {
+    width: auto;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    z-index: 20;
+    color: white;
+  }
+  .Experience .left .img_shape {
+    position: absolute;
+    top: 5%;
+    left: 38%;
+    z-index: 10;
+  }
+
+  .Experience .left .img_1 {
+    /* left: 30%; */
+    /* position: absolute; */
+    width: 460px;
+  }
+
+  .Experience .right {
+    width: 75%;
+    margin: auto;
+    /* background-color: red; */
+    padding: 0px;
+    margin-bottom: 40px;
+  }
+  .logistics-swiper-container {
+    width: 100%;
+    padding: 0px 40px;
+  }
+  .logistics-card .img-cover .service-thumbnail {
+    width: 330px;
+  }
+
+  .custom-arrow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .prev-arrow {
+    position: absolute;
+    top:550%;
+    left: 45%;
+    color: grey;
+  }
+  
+  .next-arrow {
+    position: absolute;
+    top:550%;
+    right: 43%;
+    color: grey;
+
+  }
+}
+
+@media (max-width: 980px) {
+  .nav_first_layout {
+    display: none;
+  }
+  .hero .left-content {
+    width: 80%;
+    padding-left: 80px;
+  }
+  .hero {
+    /* padding: 0px 40px; */
+    padding-top: 150px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+    height: auto;
+    background-size: cover; /* Start with zoomed-in image */
+  }
+  .hero .element_1 {
+    display: flex;
+    justify-content: center;
+    display: none;
+  }
+  .hero .image {
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  .right-content {
+    width: 100%;
+  }
+  .section-tex {
+    font-weight: 500;
+  }
+}
+  
+@media (max-width: 910px) {
+  .prev-arrow {
+    position: absolute;
+    top:560%;
+    left: 43%;
+    color: grey;
+  }
+  
+  .next-arrow {
+    position: absolute;
+    top:560%;
+    right: 43%;
+    color: grey;
+
+  }
+}
+
+  @media (max-width: 860px) {
+    .logistics-swiper-container {
+      width: 100%;
+      padding: 0px 20px;
+    }
+    .logistics-card .img-cover .service-thumbnail {
+      width: 310px;
+      /* padding: 0px 20px; */
+    }
+  }
+
+  @media (max-width: 767px) {
+    .logistics-swiper-container {
+      width: 90%;
+      padding: 0px 40px;
+    }
+    .logistics-card .img-cover .service-thumbnail {
+      width: 364px;
+    }
+    .prev-arrow {
+      position: absolute;
+      top:570%;
+      left: 43%;
+      color: grey;
+    }
     
-    .main_navbar {
-        padding: 0px 30px;
+    .next-arrow {
+      position: absolute;
+      top:570%;
+      right: 40%;
+      color: grey;
+  
     }
-    .nav_dropdowns {
-        display: none;
-    }
-    .nav_menu_icon {
-        display: flex;
-        justify-content: center;
-        padding: 25px;
-    }
-    .nav_menu_icon .menu_icon {
-        font-size: 25px;
-        color: #003566;
-        margin-right: -25px;
-    } 
-    
-    .overlay {
-        top: -35%;
-    }
-    .servicing {
-        margin-bottom: 70px;
-    }
-    .Experience {
-        width: 100%;
-        height: auto;
-        flex-direction: column-reverse;
-        padding: 0px 0px;
-        overflow: hidden;
-        margin-bottom: 100px;
-      }
-
-      .Experience .left {
-        position: relative;
-        width: auto;
-        /* background-color: red; */
-        margin-top: 0px;
-        margin: auto;
-        /* display: none; */
-      }
-      .Experience .left .text {
-        width: auto;
-        position: absolute;
-        top: 16%;
-        left: 50%;
-        z-index: 20;
-        color: white;
-
-      }
-      .Experience .left .img_shape {
-        position: absolute;
-        top: 5%;
-        left: 38%;
-        z-index: 10;
-      }
-
-      .Experience .left .img_1 {
-        /* left: 30%; */
-        /* position: absolute; */
-        width: 460px;
-      }
-     
-      
-      .Experience .right {
-        width: 75%;
-        margin: auto;
-        /* background-color: red; */
-        padding: 0px;
-        margin-bottom: 40px;
-      }
-    
   }
 
-  @media (max-width: 980px) {
-    .nav_first_layout  {
-        display: none;
-    }
-    .hero .left-content {
-        width: 80%;
-        padding-left: 80px;
-    }
-    .hero {
-        /* padding: 0px 40px; */
-        padding-top: 150px;
-        padding-bottom: 60px;
-        flex-wrap: wrap;
-        height: auto;
-        background-size: cover; /* Start with zoomed-in image */
-      
-    }
-    .hero .element_1 {
-        display: flex;
-        justify-content: center;
-        display: none;
-    }
-    .hero .image {
-        width: 100%;
-        display: block;
-        display: flex;
-        justify-content: center;
-      }
-      .right-content {
-        width: 100%;
-      }
-      .section-tex {
-        font-weight: 500;
-      }
-      
-
+@media (max-width: 700px) {
+  .Experience .right .details .shift_1 {
+    margin-left: 0px;
   }
-  @media (max-width: 700px) {
-    .Experience .right .details  .shift_1 {
-        /* margin-left: 20px; */
-      }
-  }
-  @media (max-width: 700px) {
-    .Experience .right .details  .shift_1 {
-        margin-left: 0px;
-      }
-  }
-
-  @media (max-width: 650px) {
-    .side-nav {
-        left: -700px;
-        top: -33%;
-    }
-   
-    .hero .image img {
-        width: 440px;
-      }
-
-      .hero .left-content {
-        padding-left: 40px;
-      }
-      .hero .left-content h1 {
-        font-weight: 800;
-        
-      }
-      .hero .section-tag {
-        display: inline-block;
-        margin-bottom: 20px;
-        border-radius: 6px;
-        background-color: #fd7d1450;
-        padding: 7px 20px;
-        color: white;
-        font-weight: 500;
-        font-size: 0.875rem;
-        line-height: 1;
-      }
-      .servicing {
-        width: 90%;
-        margin-top: -60px;
-
-        padding: 15px 20px;
-      }
-      .servicing h2 {
-        font-size: 18px;
-        width: auto;
-        margin-bottom: 17px;
-        font-weight: 800;
-      }
-      .marquee_img img {
-        width: 110px;
-      }
-    
-      .Experience .right {
-        width: 100%;
-        margin: auto;
-        /* background-color: red; */
-        padding: 25px;
-        margin-bottom: 40px;
-      }
-      .Experience .smith .content {
-        margin-left: 30px;
-      }
-      .Experience .right .details {
-        flex-direction: column;
-      }
-      .Experience .right .details  .shift {
-        margin-left: 0px;
-      }
-      .Experience .left .text {
-        width: auto;
-        position: absolute;
-        top: 18%;
-        left: 43%;
-        z-index: 20;
-        color: white;
-
-      }
-      .Experience .left .text h1 {
-        font-size: 40px;
-      }
-      .Experience .left .img_shape {
-        width: 170px;
-        position: absolute;
-        top: 9%;
-        left: 35%;
-        z-index: 10;
-      }
-      .Experience .left .img_1 {
-        width: 440px;
-      }
-  }  
-
-  @media (max-width: 600px) {
-    .main_navbar {
-        width: 93%;
-        right:4%;
-        padding: 0px 23px;
-    }
-    .hero .left-content {
-        padding-left: 35px;
-        width:90%;
-        color: white;
-      }
-      .hero .left-content h1 {
-        font-size: 40px;       
-      }
-    
-      .hero .element_1 {
-        display: none;
-      }
-      .hero .element_4 {
-        display: none;
-      }
-      .side-nav.open {
-        left: -4%;
-        
-      }
-      .Experience .left {
-        padding: 0px 20px;
-      }
-     
-      
-   
-  }
-
  
+}
 
-  @media (max-width: 480px) {
-    .hero .image img {
-        width: 400px;
-      }
-    /* .hero .element_1 {
+@media (max-width: 688px) {
+  .prev-arrow {
+    position: absolute;
+    top:580%;
+    left: 43%;
+    color: grey;
+  }
+  
+  .next-arrow {
+    position: absolute;
+    top:580%;
+    right: 40%;
+    color: grey;
+
+  }
+}
+
+@media (max-width: 650px) {
+  .side-nav {
+    left: -700px;
+    top: -33%;
+  }
+
+  .hero .image img {
+    width: 440px;
+  }
+
+  .hero .left-content {
+    padding-left: 40px;
+  }
+  .hero .left-content h1 {
+    font-weight: 800;
+  }
+  .hero .section-tag {
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: #fd7d1450;
+    padding: 7px 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1;
+  }
+  .servicing {
+    width: 90%;
+    margin-top: -60px;
+
+    padding: 15px 20px;
+  }
+  .servicing h2 {
+    font-size: 18px;
+    width: auto;
+    margin-bottom: 17px;
+    font-weight: 800;
+  }
+  .marquee_img img {
+    width: 110px;
+  }
+
+  .Experience .right {
+    width: 100%;
+    margin: auto;
+    /* background-color: red; */
+    padding: 25px;
+    margin-bottom: 40px;
+  }
+  .Experience .smith .content {
+    margin-left: 30px;
+  }
+  .Experience .right .details {
+    flex-direction: column;
+  }
+  .Experience .right .details .shift {
+    margin-left: 0px;
+  }
+  .Experience .left .text {
+    width: auto;
+    position: absolute;
+    top: 18%;
+    left: 43%;
+    z-index: 20;
+    color: white;
+  }
+  .Experience .left .text h1 {
+    font-size: 40px;
+  }
+  .Experience .left .img_shape {
+    width: 170px;
+    position: absolute;
+    top: 9%;
+    left: 35%;
+    z-index: 10;
+  }
+  .Experience .left .img_1 {
+    width: 440px;
+  }
+
+  .prev-arrow {
+    position: absolute;
+    top:555%;
+    left: 40%;
+    color: grey;
+  }
+  
+  .next-arrow {
+    position: absolute;
+    top:555%;
+    right: 40%;
+    color: grey;
+
+  }
+}
+
+@media (max-width: 600px) {
+  
+  .main_navbar {
+    width: 93%;
+    right: 4%;
+    padding: 0px 23px;
+  }
+  .hero .left-content {
+    padding-left: 35px;
+    width: 90%;
+    color: white;
+  }
+  .hero .left-content h1 {
+    font-size: 40px;
+  }
+
+  .hero .element_1 {
+    display: none;
+  }
+  .hero .element_4 {
+    display: none;
+  }
+  .side-nav.open {
+    left: -4%;
+  }
+  .Experience .left {
+    padding: 0px 20px;
+  }
+  .logistics-swiper-container {
+    width: auto;
+    padding: 0px 0px;
+  }
+  .logistics-card {
+    margin: 0px;
+  }
+  .prev-arrow {
+    position: absolute;
+    top:550%;
+    left: 40%;
+    color: grey;
+  }
+  
+  .next-arrow {
+    position: absolute;
+    top:550%;
+    right: 40%;
+    color: grey;
+
+  }
+
+}
+
+@media (max-width: 480px) {
+  .hero .image img {
+    width: 400px;
+  }
+  /* .hero .element_1 {
         display: block;
     }
     .hero .element_1  {
@@ -365,50 +498,49 @@
       .hero .element_1 img {
         width: 400px;
       } */
-       
-      .Experience .left .img_1 {
-        width: 400px;
-      }
-      .Experience .smith {
-        flex-wrap: wrap;
-      }
-      .Experience .smith .content {
-        margin-left: 20px;
-        margin-top: 20px;
-      }
-  }
 
-  @media (max-width: 440px) {
-    .Experience .smith{
-        /* flex-wrap: wrap;
+  .Experience .left .img_1 {
+    width: 400px;
+  }
+  .Experience .smith {
+    flex-wrap: wrap;
+  }
+  .Experience .smith .content {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 440px) {
+  .Experience .smith {
+    /* flex-wrap: wrap;
         justify-content: flex-start; */
-    }
-    .Experience .smith .content {
-        margin-left: 0px;
-      }
-      .Experience .left .img_1 {
-        width: 370px;
-      }
   }
+  .Experience .smith .content {
+    margin-left: 0px;
+  }
+  .Experience .left .img_1 {
+    width: 370px;
+  }
+}
 
-  @media (max-width: 430px) {
-    .right-content {
-        padding: 0px 20px;
-    }
-    .hero .image {
-        padding: 0px 20px;
-    }
-    .hero .image img {
-        width: 350px;
-      }
-      .Experience .left .img_1 {
-        width: 340px;
-      }
-     
+@media (max-width: 430px) {
+  .right-content {
+    padding: 0px 20px;
   }
+  .hero .image {
+    padding: 0px 20px;
+  }
+  .hero .image img {
+    width: 350px;
+  }
+  .Experience .left .img_1 {
+    width: 340px;
+  }
+}
 
-  @media (max-width: 380px) {
-    .hero .image img {
-        width: 300px;
-      }
+@media (max-width: 380px) {
+  .hero .image img {
+    width: 300px;
   }
+}

@@ -11,6 +11,12 @@ import about_img_1 from "./about_img_1.jpg"
 import about_img_2 from "./about_img_2.jpg"
 import star_curve_shape_blue from "./star_curve_shape_blue.svg"
 import signature from "./signature.png"
+import service_thumbnail_1 from "./service_thumbnail_1.jpg"
+import service_thumbnail_2 from "./service_thumbnail_2.jpg"
+import service_thumbnail_3 from "./service_thumbnail_3.jpg"
+import service_thumbnail_4 from "./service_thumbnail_4.jpg"
+import service_thumbnail_5 from "./service_thumbnail_5.jpg"
+import service_thumbnail_6 from "./service_thumbnail_6.jpg"
 export const assets = {
     element1,
     element4,
@@ -24,5 +30,11 @@ export const assets = {
     star_curve_shape_blue,
     about_img_1,
     about_img_2,
-    signature
+    signature,
+    service_thumbnail_1,
+    service_thumbnail_2,
+    service_thumbnail_3,
+    service_thumbnail_4,
+    service_thumbnail_5,
+    service_thumbnail_6
 }
