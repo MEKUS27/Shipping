@@ -598,7 +598,7 @@
 }
 
 .custom-navigation {
-  
+  position: relative;
   width: auto;
   display: flex;
   justify-content: space-between;
@@ -608,7 +608,7 @@
 }
 
 .custom-arrow {
-  position: relative;
+  /* position: relative;/ */
   z-index: 10;
   display: inline-flex;
   -webkit-box-pack: center;
@@ -625,13 +625,13 @@
 
  .prev-arrow {
   position: absolute;
-  top: 448%;
+  top:770%;
 }
 
 .next-arrow {
   position: absolute;
-  top: 448%;
-  right: 8%;
+  top:770%;
+  right: 2%;
 }
 
 .custom-arrow:hover {
