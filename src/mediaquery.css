@@ -439,7 +439,7 @@
     padding: 0px 20px;
   }
   .logistics {
-    padding-bottom: 300px;
+    padding-bottom: 500px;
     /* margin-bottom: 300px; */
   }
   .logistics_services {
@@ -447,9 +447,10 @@
   }
   .logistics-swiper-container {
     width: 90%;
-    margin-top: -300px;
+    margin-top: -500px;
     padding: 0px 0px;
   }
+
   .logistics-card .img-cover .service-thumbnail {
     width: 400px;
   }
@@ -466,6 +467,12 @@
   }
  
 
+}
+
+@media (max-width: 490px) {
+  .logistics-card .img-cover .service-thumbnail {
+    width: 350px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -508,6 +515,20 @@
   .Experience .left .img_1 {
     width: 370px;
   }
+  .logistics-card .img-cover .service-thumbnail {
+    width: 300px;
+  }
+  .prev-arrow {
+    position: absolute;
+    top: 1680%;
+    left: 30%;
+  }
+  
+  .next-arrow {
+    position: absolute;
+    top: 1680%;
+    right: 30%;
+  }
 }
 
 @media (max-width: 430px) {
@@ -528,5 +549,8 @@
 @media (max-width: 380px) {
   .hero .image img {
     width: 300px;
+  }
+  .logistics-card .img-cover .service-thumbnail {
+    width: 280px;
   }
 }

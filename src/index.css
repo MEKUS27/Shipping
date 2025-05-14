@@ -492,9 +492,7 @@
 
 }
 
-/* .logistics-card:hover {
-  border: thin #ff7d44;
-} */
+
 
 .logistics-card .content .content_text {
   padding: 10px 30px;
@@ -541,10 +539,13 @@
 .logistics-card .content .btn_link:hover button {
   color: white;
   border: transparent;
+  background: linear-gradient(237deg, rgb(255, 229, 202) 0%, rgb(246, 146, 30) 53%, rgb(216, 59, 32) 100%);
+  transition:  0.2s ease;
+
   /* background: linear-gradient(237deg, rgb(255, 229, 202) 0%, rgb(246, 146, 30) 53%, rgb(216, 59, 32) 100%); */
 }
 
-.logistics-card .content .btn_link button::before {
+.logistics-card .content .btn_link::before button {
   content: "";
   position: absolute;
   top: 0;
@@ -553,7 +554,7 @@
   height: 100%;
   background: linear-gradient(237deg, rgb(255, 229, 202) 0%, rgb(246, 146, 30) 53%, rgb(216, 59, 32) 100%);
   z-index: -1;
-  transition: width 0.3s ease;
+  transition: width 0.1s ease;
   border-radius: 50px;
 }
 
