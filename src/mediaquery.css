@@ -130,6 +130,20 @@
     top: 1650%;
     right: 43%;
   }
+  .sectionindustry_content {
+    margin-top: 150px;
+  }
+  .img_one {
+    position: absolute;
+    top: -580px;
+    left: 0;
+  }
+  
+  .img_two {
+    position: absolute;
+    top: -580px;
+    right: 0;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -267,6 +281,19 @@
   } */
 }
 
+@media (max-width: 881px) {
+  .img_one {
+    position: absolute;
+    top: -670px;
+    left: 0;
+  }
+  
+  .img_two {
+    position: absolute;
+    top: -670px;
+    right: 0;
+  }
+}
   @media (max-width: 860px) {
     .logistics-swiper-container {
       width: 100%;
@@ -301,6 +328,32 @@
     .logistics-card .img-cover .service-thumbnail {
       width: 364px;
     }
+    .sectionindustry {
+      /* overflow: hidden; */
+    }
+    .sectionindustry_content .text {
+      width: auto;
+    }
+    .industry_list ul li {
+      margin-left: 0px;
+    }
+    .img_one {
+      position: absolute;
+      top: -940px;
+      left: 0;
+    }
+    
+    
+    .img_two {
+      /* width: 366px; */
+      top: -500px;
+      right: 0%;
+      /* overflow: hidden; */
+    }
+    .industry_list ul {
+      flex-direction: column;
+    }
+    
    
   }
 
@@ -318,6 +371,9 @@
     /* position: absolute;
     top: 1650%; */
     right: 35%;
+  }
+  .sectionindustry h2 {
+    font-size: 2rem;
   }
  
 }
@@ -465,6 +521,10 @@
     top: 1680%;
     right: 35%;
   }
+  .industry_list {
+    width: 100%;
+    /* background-color: red; */
+  }
  
 
 }
@@ -479,18 +539,7 @@
   .hero .image img {
     width: 400px;
   }
-  /* .hero .element_1 {
-        display: block;
-    }
-    .hero .element_1  {
-        position: relative;
-        top: 100%;
-        left: 7%;
-        z-index: 9;
-      }
-      .hero .element_1 img {
-        width: 400px;
-      } */
+  
 
   .Experience .left .img_1 {
     width: 400px;
@@ -501,6 +550,28 @@
   .Experience .smith .content {
     margin-left: 20px;
     margin-top: 20px;
+  }
+  .prev-arrow {
+    top: 1650%;
+    left: 35%;
+  }
+  
+  .next-arrow {
+    top: 1650%;
+    right: 35%;
+  }
+  .img_one {
+    width: 360px;
+    top: -980px;
+    left: 0;
+  }
+  
+  
+  .img_two {
+    width: 360px;
+    top: -500px;
+    right: 0%;
+    /* overflow: hidden; */
   }
 }
 
@@ -520,13 +591,13 @@
   }
   .prev-arrow {
     position: absolute;
-    top: 1680%;
+    top: 1600%;
     left: 30%;
   }
   
   .next-arrow {
     position: absolute;
-    top: 1680%;
+    top: 1600%;
     right: 30%;
   }
 }
