@@ -1,11 +1,14 @@
+
 .sectionindustry {
-    /* overflow: hidden; */
+    width: auto;
+    height: auto;
+    margin-bottom: 130px;
 }
+
 .sectionindustry .sectionindustry_img {
   position: relative;
   height: auto;
   overflow: visible;
-  /* background-color: red; */
   
 }
 
@@ -24,7 +27,6 @@
 .sectionindustry_content {
   width: 90%;
   margin: auto;
-  /* background-color: red; */
 }
 
 .sectionindustry_content .text {
@@ -38,7 +40,6 @@
   display: inline-block;
   margin-bottom: 20px;
   border-radius: 6px;
-  /* background-color: rgba(255, 125, 68, 0.17); */
   padding: 7px 20px;
   color: #ff7d44;
   font-weight: 500;
@@ -69,12 +70,10 @@
     width: 90%;
     margin: auto;
     height: auto;
-    /* background-color: red; */
 }
 
 .industry_list ul {
     display: flex;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
     list-style: none;
 }
@@ -129,3 +128,208 @@
     transition:  0.5s ;
     border: #fff;
 }
+
+
+/* why choose us Section strats here */
+
+.whychooseus {
+    width: 100%;
+    height: auto;
+    background-color: #003566;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+}
+
+.whychooseus_content {
+    display: flex;
+    justify-content: center;
+}
+
+.whychooseus_content .left .section-tag {
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: rgba(255, 125, 68, 0.17);
+    padding: 7px 20px;
+    color: #ff7d44;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1;
+}
+
+.whychooseus_content .left h2 {
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: -2px;
+    font-weight: 600;
+}
+
+.whychooseus_content .left h2 span {
+    font-weight: 900;
+}
+
+.whychooseus_content .left .section_text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 2;
+    color: #fff;
+}
+
+.whychooseus_content .left {
+    width: 42%;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+
+
+
+.whychooseus_content .left .contact {
+    position: relative;
+    margin-top: 60px;
+}
+
+.whychooseus_content .left .link {
+    display: flex;
+    align-items: center;
+}
+
+.whychooseus_content .left .link .phone {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.whychooseus_content .left .link .phone span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.09);
+    width: 58px;
+    height: 58px;
+    color: #fff;
+    font-size: 1.600rem;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.whychooseus_content .left .link .phone p {
+    display: block;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.whychooseus_content .left .link .phone a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.whychooseus_content .left .link  a{
+    width: auto;
+    text-decoration: none;
+    
+  }
+  .whychooseus_content .left .link button {
+    border: none;
+    background: linear-gradient(237deg, rgb(255, 229, 202) 0%, rgb(246, 146, 30) 53%, rgb(216, 59, 32) 100%);
+    color: #fff;
+    padding: 15px 0px;
+    padding-left: 40px;
+    padding-right: 60px;
+    border-radius: 30px;
+    font-weight: 900;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 10px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 30px; */
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .whychooseus_content .left .link button:hover {
+    color: #003566;
+    /* border: transparent; */
+
+    /* background: linear-gradient(237deg, rgb(255, 229, 202) 0%, rgb(246, 146, 30) 53%, rgb(216, 59, 32) 100%);
+    transition:  0.2s ease; */
+  
+    /* background: linear-gradient(237deg, rgb(255, 229, 202) 0%, rgb(246, 146, 30) 53%, rgb(216, 59, 32) 100%); */
+  }
+  
+  .whychooseus_content .left .link button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: width 0.4s ease;
+    border-radius: 50px;
+    color: #003566;
+
+    background-color: #fff;
+  }
+  
+  .whychooseus_content .left .link button:hover::before {
+    width: 100%;
+  }
+  
+  .whychooseus_content .left .link button:hover {
+    transform: scale(1);
+  }
+  
+  .whychooseus_content .left .link button:hover svg {
+    color: #fff;
+    background: #fd7e14;
+  }
+  .whychooseus_content .left .link button svg {
+    position: absolute;
+    right: 10%;
+    /* background-color: red; */
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: #003566;
+    background-color: #fff;
+  }
+
+  .whychooseus_content .left .contact .img_dot {
+    width: 120px;
+    position: absolute;
+    top: -40%;
+    left: 8%;
+  }
+  .whychooseus_content .right {
+    width: 48%;
+    position: relative;
+    height: auto;
+    overflow: visible;
+    position: relative;
+  }
+  
+
+  
+  .whychooseus_content .right .img_1 {
+    position: absolute;
+    top: -24.7%;
+    right: 7%;
+    z-index: 20;
+    /* top: -260%; */
+    /* width: 100px; */
+  }
+  .whychooseus_content .right .img_2 {
+    position: absolute;
+    top: 8%;
+    right: 0%;
+    /* top: -260%; */
+    /* width: 100px; */
+  }
+  
+
+/* why choose us Section ends here */

@@ -5,6 +5,7 @@ import Experience from '../components/Experience'
 import Logisticssiwper from '../components/Logisticssiwper'
 import LogisticsCard from "../components/LogisticsCard"
 import Sectionindustry from '../components/Sectionindustry'
+import Whychooseus from '../components/Whychooseus'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Logisticssiwper />
       <LogisticsCard />
       <Sectionindustry />
+      <Whychooseus />
     </>
   )
 }

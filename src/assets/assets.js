@@ -19,6 +19,8 @@ import service_thumbnail_5 from "./service_thumbnail_5.jpg"
 import service_thumbnail_6 from "./service_thumbnail_6.jpg"
 import world_globe_dark from "./world_globe_dark.png"
 import industry_shape from "./industry_shape.png"
+import why_choose_us_person from "./why_choose_us_person.png"
+import world_globe_white from "./world_globe_white.png"
 
 export const assets = {
     element1,
@@ -41,5 +43,7 @@ export const assets = {
     service_thumbnail_5,
     service_thumbnail_6,
     world_globe_dark,
-    industry_shape
+    industry_shape,
+    why_choose_us_person,
+    world_globe_white
 }
