@@ -6,6 +6,7 @@ import Logisticssiwper from '../components/Logisticssiwper'
 import LogisticsCard from "../components/LogisticsCard"
 import Sectionindustry from '../components/Sectionindustry'
 import Whychooseus from '../components/Whychooseus'
+import StatsCounter from '../components/statsCounter'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <LogisticsCard />
       <Sectionindustry />
       <Whychooseus />
+      <StatsCounter />
     </>
   )
 }

@@ -164,8 +164,8 @@
   .whychooseus_content .left .contact .img_dot {
     display: none;
   }
-  .whychooseus {
-    /* padding-top: 0px; */
+  .stats-section {
+    margin-top: 70px !important;
   }
 }
 
@@ -583,12 +583,11 @@
     width: 100%;
     /* background-color: red; */
   }
-
+.whychooseus {
+  padding-bottom: 0px;
+}
   .whychooseus_content .left {
-    padding: 0px 20px;
-    padding-top: 20px;
-    width: auto;
-    /* background-color: red; */
+    padding: 35px 20px;
   }
  
 

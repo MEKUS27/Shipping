@@ -7,6 +7,7 @@ import './dropdown.css'
 import './mediaquery.css'
 import './siwper.css'
 import './progressbar.css'
+import './StatsCounter.css'; 
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
